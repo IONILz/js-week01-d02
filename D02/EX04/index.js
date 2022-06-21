@@ -4,7 +4,6 @@ function calculateMatrixDiagonalSum(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     sumOfDiagonal = sumOfDiagonal + matrix[i][diagonalIndexes];
     diagonalIndexes++;
-    console.log("Sum of Diagonal " + sumOfDiagonal + ": " + sumOfDiagonal);
   }
   return sumOfDiagonal;
 }
