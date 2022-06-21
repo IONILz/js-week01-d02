@@ -5,7 +5,6 @@ function sumNumbersWhileLoop(array) {
     sumOfNumbers = sumOfNumbers + array[index];
     index++
   }
-  console.log(sumOfNumbers);
   return sumOfNumbers;
 };
 
@@ -14,7 +13,6 @@ function sumNumbersForLoop(array) {
   for (let index = 0; index < array.length; index++) {
     sumOfNumbers = sumOfNumbers + array[index];
   }
-  console.log(sumOfNumbers);
   return sumOfNumbers;
 };
 
