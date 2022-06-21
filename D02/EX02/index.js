@@ -5,10 +5,8 @@ function calculateMatrixSum(matrix) {
       sumOfArray = 0;
       for (let j = 0; j < matrix[i].length; j++) {
          sumOfArray = sumOfArray + matrix[i][j];
-         console.log("Sum of Array " + i + ": " + sumOfArray);
       }
       totalSum = totalSum + sumOfArray;
-      console.log("Total of Arrays: " + totalSum);
    }
    return totalSum;
 };
